@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int CurrentSumm = 145;
-        int DepositAmount = 2200;
+        int currentSumm = 145;
+        int depositAmount = 2200;
         int bonus;
-        int FinalAmount;
-        if (DepositAmount > 1000) {
-            FinalAmount = CurrentSumm + DepositAmount / 100 + DepositAmount;
+        int finalAmount;
+        if (depositAmount > 1000) {
+            finalAmount = currentSumm + depositAmount / 100 + depositAmount;
         } else {
-            FinalAmount = CurrentSumm + DepositAmount;
+            finalAmount = currentSumm + depositAmount;
         }
-        System.out.println(FinalAmount);
+        System.out.println(finalAmount);
     }
 }
